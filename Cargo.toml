@@ -1,5 +1,5 @@
 [package]
-name = "byteorder"
+name = "no_std-byteorder"
 version = "1.3.4"  #:version
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
 description = "Library for reading/writing numbers in big-endian and little-endian."
@@ -22,8 +22,7 @@ quickcheck = { version = "0.8", default-features = false }
 rand = "0.6"
 
 [features]
-default = ["std"]
-std = []
+default = []
 
 # This feature is no longer used and is DEPRECATED. This crate now
 # automatically enables i128 support for Rust compilers that support it. The
